@@ -1,0 +1,10 @@
+{
+  "name": "linkedin-learning",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "courses/react-design-patterns/*",
+    "courses/react-software-architecture/*"
+  ]
+}

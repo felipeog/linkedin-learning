@@ -1,0 +1,34 @@
+.Item {
+  transition: background-color 200ms;
+}
+
+.Item__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Item__container p {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  min-width: 100px;
+}
+
+.Item__actions {
+  display: flex;
+  margin-left: 0.4rem;
+}
+
+.Item__actions button:not(:first-child) {
+  margin-left: 0.2rem;
+}
+
+.Item--note {
+  cursor: pointer;
+}
+
+.Item--note:hover {
+  cursor: pointer;
+  background-color: #fff !important;
+}

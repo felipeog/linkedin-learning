@@ -1,0 +1,24 @@
+.EditModal {
+  display: flex;
+  flex-direction: column;
+}
+
+.EditModal legend {
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}
+
+.EditModal label {
+  display: block;
+  margin-bottom: 0.6rem;
+}
+
+.EditModal input {
+  display: block;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.EditModal__actions button:not(:first-child) {
+  margin-left: 1rem;
+}
